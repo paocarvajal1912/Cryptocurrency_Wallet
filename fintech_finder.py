@@ -136,7 +136,8 @@ account=generate_account()
 ##########################################
 
 # Write the client's Ethereum account address to the sidebar
-st.sidebar.write(account.address)
+account_address=account.address
+st.sidebar.write(account_address)
 
 ##########################################
 # Step 1 - Part 5:
@@ -147,7 +148,7 @@ st.sidebar.write(account.address)
 # @TODO
 # Call `get_balance` function and pass it your account address
 # Write the returned ether balance to the sidebar
-st.sidebar.write(get_balance(account.address))
+st.sidebar.write(get_balance(account_address))
 
 ##########################################
 
