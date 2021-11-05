@@ -34,7 +34,7 @@ A local host address will appear. You may be redirected to a page in your browse
 The following screenshot is a sample of the Fintech Finder screen. The candidates information is displayed in the right panel. On the left panel, the you can select a candidate to hire, and the amount of hours associated. The application automatically calculates the total wage to be paid. By hitting the Send Transaction button, the application executes the payment of that wage on Ethereum network.  
 
 
-![StreamlitInterface](images/StreamlitInterface.png)
+![StreamlitInterface](Images/StreamlitInterface.png)
 
 
 #### Integration with Ethereum
@@ -47,17 +47,17 @@ We made a payment of 0.0019 ether to Joe. Below we verify a balance and transact
     2) A remaining balance is 0.001 ether
     3) A "transfer" transaction going "out" from the company account to Joe's account of 0.0019 ether (13 min ago)
     
-![EmployerBalanceAndHistory](images/5_EmployerBalanceAndHistory.png)
+![EmployerBalanceAndHistory](Images/5_EmployerBalanceAndHistory.png)
 
 A similar situation we can verify on Joe's account balance and transaction history screenshot on Etherscan below. We can see that the last transaction was a transfer in of 0.0019 ether coming from the employer account. The screenshot is from 1 minute after executing the transaction:
 
-![BalanceHistory](images/1_AddressBalancerAndHistory.png)
+![BalanceHistory](Images/1_AddressBalancerAndHistory.png)
 
 
 ##### Transaction details
 On the Kovan Etherscan page, if you click on the Txn Hash number associated with the transaction that paid the Fintech Finder candidate you can see the details about the transaction, inclñuding status, gas used, gas limit, among many other characteristics:
 
-![TransactionDetailsOnEtherscan2](images/3_TransactionDetailsOnEtherscan2.png)
+![TransactionDetailsOnEtherscan2](Images/3_TransactionDetailsOnEtherscan2.png)
 
 
 
